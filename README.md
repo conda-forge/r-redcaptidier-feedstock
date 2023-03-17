@@ -1,11 +1,11 @@
-About r-redcaptidier
-====================
+About r-redcaptidier-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-redcaptidier-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/CHOP-CGTInformatics/REDCapTidieR, https://chop-cgtinformatics.github.io/REDCapTidieR/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-redcaptidier-feedstock/blob/main/LICENSE.txt)
 
 Summary: Convert 'REDCap' exports into tidy tables for easy handling of 'REDCap' repeat instruments and event arms.
 
