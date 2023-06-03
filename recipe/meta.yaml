@@ -31,8 +31,8 @@ requirements:
     - r-cli
     - r-dplyr
     - r-formattable
-    - r-lifecycle
     - r-lobstr
+    - r-lubridate
     - r-purrr
     - r-rlang
     - r-stringi
@@ -47,8 +47,8 @@ requirements:
     - r-cli
     - r-dplyr
     - r-formattable
-    - r-lifecycle
     - r-lobstr
+    - r-lubridate
     - r-purrr
     - r-rlang
     - r-stringi
