@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/REDCapTidieR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/REDCapTidieR/REDCapTidieR_{{ version }}.tar.gz
-  sha256: dd9ddf7af9a00e2754c016370c6c4ed4d6b51c1de805ab7bb9ddccb4f489bb06
+  sha256: a16f10780014eb98b3ae9415c4a0da380fce53b06165434fe8934a6cb5e84b6b
 
 build:
   merge_build_host: true  # [win]
@@ -31,8 +31,8 @@ requirements:
     - r-cli
     - r-dplyr
     - r-formattable
-    - r-lifecycle
     - r-lobstr
+    - r-lubridate
     - r-purrr
     - r-rlang
     - r-stringi
@@ -47,8 +47,8 @@ requirements:
     - r-cli
     - r-dplyr
     - r-formattable
-    - r-lifecycle
     - r-lobstr
+    - r-lubridate
     - r-purrr
     - r-rlang
     - r-stringi
