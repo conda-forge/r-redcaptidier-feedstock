@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/REDCapTidieR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/REDCapTidieR/REDCapTidieR_{{ version }}.tar.gz
-  sha256: 0a4ee9090e6091e13fa960566f2ba34fc680f740f114856380dfbf0e20a56957
+  sha256: fdcf4c5e7d3930b7ac30a443e0c076d3d74cb96784a43f58fd84f3ffb2fd0c5a
 
 build:
   merge_build_host: true  # [win]
