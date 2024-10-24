@@ -1,4 +1,4 @@
-{% set version = "1.1.1" %}
+{% set version = "1.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/REDCapTidieR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/REDCapTidieR/REDCapTidieR_{{ version }}.tar.gz
-  sha256: 9b3f809c9c84ca6cf939fbf98c3547108bc292f187eeed549bce3b695d15f828
+  sha256: fded5d47b4e12a44f9854ed99eaf7744b23699146ebc2126d5f2253b663f8d38
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
