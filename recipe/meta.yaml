@@ -24,36 +24,46 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-redcapr >=1.1.0
+    - r-redcapr >=1.2.0
     - r-checkmate
     - r-cli
     - r-dplyr
+    - r-forcats
     - r-formattable
+    - r-glue
     - r-lobstr
     - r-lubridate
+    - r-pillar
     - r-purrr
+    - r-readr
     - r-rlang
     - r-stringi
     - r-stringr
     - r-tibble
     - r-tidyr
     - r-tidyselect
+    - r-vctrs
   run:
     - r-base
-    - r-redcapr >=1.1.0
+    - r-redcapr >=1.2.0
     - r-checkmate
     - r-cli
     - r-dplyr
+    - r-forcats
     - r-formattable
+    - r-glue
     - r-lobstr
     - r-lubridate
+    - r-pillar
     - r-purrr
+    - r-readr
     - r-rlang
     - r-stringi
     - r-stringr
     - r-tibble
     - r-tidyr
     - r-tidyselect
+    - r-vctrs
 
 test:
   commands:
